@@ -15,8 +15,9 @@ The first few entries look like this:
 	3466	      8579
 	3466	      10310
 So, author 3466 had multiple collaborations.
+
 Source (citation)
-•	J. Leskovec, J. Kleinberg and C. Faloutsos. Graph Evolution: Densification and Shrinking Diameters. ACM Transactions on Knowledge Discovery from Data (ACM TKDD), 1(1), 2007.
+• J. Leskovec, J. Kleinberg and C. Faloutsos. Graph Evolution: Densification and Shrinking Diameters. ACM Transactions on Knowledge Discovery from Data (ACM TKDD), 1(1), 2007.
 
 ## Part 2 Initial Graph Plotting and Simplifying
 Initially created the plot for the entire dataset, I can hardly observe the data structure (Figure 1). So I took the three steps towards graph simplification: 
@@ -45,30 +46,58 @@ Finally, I arrive at a three-cluster igraph object for deeper analysis and plott
 ## Part 3 Explore Functions
 Applied functions from igraph package to show the following information of the dataset:
 • Vertices of the Graph
+
 • Edges of the Graph
+
 • Adjacency Matrix
+
 • Density
+
 • Egocentric Network and Degrees
+
 • Betweenness Centrality
+
 • Closeness Centrality
+
 • Shortest Paths
+
 • Geodesic
+
 • Number of Paths Between Nodes
+
 • Degree Histogram
+
 • Diameter
+
 • Max Cliques
+
 • Largest Cliques
+
 • Alpha Centrality
+
 • Walktrap Communities
+
 • Look at more available layouts
+
 • Heatmap of the Network Matrix
+
 • Reciprocity
+
 • Transitivity
+
 • Eigenvector
+
 • Average path length
+
 • Hubs Score
+
 • Authorities Score
+
 • Central Node
+
 • Longest Path
+
 • Largest Clique
+
 • Power Centrality
+
