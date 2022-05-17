@@ -96,3 +96,9 @@ Applied functions from igraph package to show the following information of the d
 
 • Power Centrality
 
+## Part 4 Discussion and Conclusion
+For this project, I loaded a large data set of authors and co-authors into a graph using the igraph package in R. Since this dataset contained over 5000 nodes and 14000 edges, it was clear I would need to implement some graph simplification strategies. 
+
+I applied multiple strategies before successfully completing our simplification. Firstly, I order my nodes based on frequency and selected the top 300 authors. This strategy helped simplify our graph, but I am concerned this would not have enough randomness within the sample. Instead, I selected 400 nodes randomly, and then reduced this number by mandating the nodes have at least one degree. This strategy performed better, but resulted in a graph containing two subgraphs, and I preferred to work with just one. The final strategy had me performing degree removal first, dropping all nodes with less than 20 degrees, then I took the first 200 nodes of the resulting graph and dropped the remaining nodes with less than 2 degrees. The result was the graph shown in Figure 5, which contains 46 vertices, 105 edges, and no subgraphs, this is the graph I used for the remainder of my analysis.
+
+The rest of our analysis includes practicing with the igraph functions mentioned in the rubric, as well as some others. This exploration helped me become much more comfortable working with, visualizing, and understanding graph. The functions made it easier for me to identify and label cliques that occurred within the dataset. I also learned how to use different measurements for centrality, including closeness, betweenness, alpha, and power centrality. Finally, I learned the difference between directional measurements, such as hubs and authorities, and how to represent them in my graph. 
